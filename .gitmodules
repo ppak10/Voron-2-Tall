@@ -1,0 +1,15 @@
+[submodule "githubs/LDOVoron2"]
+	path = githubs/LDOVoron2
+	url = https://github.com/MotorDynamicsLab/LDOVoron2.git
+[submodule "githubs/Voron-Stealthburner"]
+	path = githubs/Voron-Stealthburner
+	url = https://github.com/VoronDesign/Voron-Stealthburner.git
+[submodule "githubs/LDOVoronTrident"]
+	path = githubs/LDOVoronTrident
+	url = https://github.com/MotorDynamicsLab/LDOVoronTrident.git
+[submodule "githubs/Nevermore_Micro"]
+	path = githubs/Nevermore_Micro
+	url = https://github.com/nevermore3d/Nevermore_Micro
+[submodule "githubs/Klicky-Probe"]
+	path = githubs/Klicky-Probe
+	url = https://github.com/jlas1/Klicky-Probe.git
