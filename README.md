@@ -11,5 +11,10 @@ The official release of the Voron 2.4 3d printer.  You can find the BOM in the c
 
 ![Voron Logo](http://vorondesign.com/images/voron_design_logo.png)
 
+## LDO Kit (Revision C) Documentation
+- https://docs.ldomotors.com/en/voron/voron2/printed_part_guide_rev_c
+- https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c
 
+## Mods
+- https://github.com/nevermore3d/Nevermore_Micro
 

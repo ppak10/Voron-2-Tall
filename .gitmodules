@@ -13,3 +13,6 @@
 [submodule "githubs/Klicky-Probe"]
 	path = githubs/Klicky-Probe
 	url = https://github.com/jlas1/Klicky-Probe.git
+[submodule "githubs/Voron-Tap"]
+	path = githubs/Voron-Tap
+	url = https://github.com/VoronDesign/Voron-Tap.git
