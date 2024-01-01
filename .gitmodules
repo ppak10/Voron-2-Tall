@@ -16,3 +16,12 @@
 [submodule "githubs/Voron-Tap"]
 	path = githubs/Voron-Tap
 	url = https://github.com/VoronDesign/Voron-Tap.git
+[submodule "githubs/EnragedRabbitProject"]
+	path = githubs/EnragedRabbitProject
+	url = https://github.com/EtteGit/EnragedRabbitProject.git
+[submodule "githubs/Print-Tuning-Guide"]
+	path = githubs/Print-Tuning-Guide
+	url = https://github.com/AndrewEllis93/Print-Tuning-Guide.git
+[submodule "githubs/VoronUsers"]
+	path = githubs/VoronUsers
+	url = https://github.com/VoronDesign/VoronUsers.git
