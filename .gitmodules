@@ -25,3 +25,9 @@
 [submodule "githubs/VoronUsers"]
 	path = githubs/VoronUsers
 	url = https://github.com/VoronDesign/VoronUsers.git
+[submodule "githubs/Voron-Hardware"]
+	path = githubs/Voron-Hardware
+	url = https://github.com/VoronDesign/Voron-Hardware.git
+[submodule "githubs/ERCF_v2"]
+	path = githubs/ERCF_v2
+	url = https://github.com/Enraged-Rabbit-Community/ERCF_v2.git
