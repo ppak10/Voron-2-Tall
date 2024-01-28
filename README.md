@@ -1,5 +1,9 @@
-# Voron 2.4
-**[CLICK HERE TO DOWNLOAD](https://voron.zip/done/V2.zip)**
+# Voron 2 Tall
+
+This is a custom Voron 2.4 with a build volume of 350 mm x 350 mm x 930 mm (
+13.78 in x 13.78 in x 36.61 in) modified from the base LDO Voron 2.4 Kit.
+
+<!-- **[CLICK HERE TO DOWNLOAD](https://voron.zip/done/V2.zip)** -->
 
 The above link includes the stealthburner toolhead files which are compatible with several of the printers in the Voron lineup. 
 To keep things organized, StealthBurner’s files are maintained separately. 
