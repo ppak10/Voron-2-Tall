@@ -31,3 +31,12 @@
 [submodule "githubs/ERCF_v2"]
 	path = githubs/ERCF_v2
 	url = https://github.com/Enraged-Rabbit-Community/ERCF_v2.git
+[submodule "githubs/CNC-Tap-for-Voron"]
+	path = githubs/CNC-Tap-for-Voron
+	url = https://github.com/Chaoticlab/CNC-Tap-for-Voron.git
+[submodule "githubs/KNOMI"]
+	path = githubs/KNOMI
+	url = https://github.com/bigtreetech/KNOMI.git
+[submodule "githubs/EBB"]
+	path = githubs/EBB
+	url = https://github.com/bigtreetech/EBB.git
