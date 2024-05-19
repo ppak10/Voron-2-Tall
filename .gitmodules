@@ -40,3 +40,9 @@
 [submodule "githubs/EBB"]
 	path = githubs/EBB
 	url = https://github.com/bigtreetech/EBB.git
+[submodule "githubs/Galileo2"]
+	path = githubs/Galileo2
+	url = https://github.com/JaredC01/Galileo2.git
+[submodule "githubs/voron"]
+	path = githubs/voron
+	url = https://github.com/chirpy2605/voron.git

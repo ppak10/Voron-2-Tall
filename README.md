@@ -1,24 +1,21 @@
 # Voron 2 Tall
 
-This is a custom Voron 2.4 with a build volume of 350 mm x 350 mm x 930 mm (
-13.78 in x 13.78 in x 36.61 in) modified from the base LDO Voron 2.4 Kit.
+![placeholder](./images/placeholder.JPEG)
 
-<!-- **[CLICK HERE TO DOWNLOAD](https://voron.zip/done/V2.zip)** -->
+Collection of files for building custom Voron 2.4 with a build volume of 350 mm
+x 350 mm x 930 mm (13.78 in x 13.78 in x 36.61 in) modified from the base LDO
+Voron 2.4 Kit. 
 
-The above link includes the stealthburner toolhead files which are compatible with several of the printers in the Voron lineup. 
-To keep things organized, StealthBurner’s files are maintained separately. 
-the Stealthburner Repository can be browsed by clicking [HERE](https://github.com/VoronDesign/Voron-Stealthburner)
+## Notes
 
-![Image of Voron 2.4](http://vorondesign.com/images/voron2.4.jpg)
+## Useful Links
 
-The official release of the Voron 2.4 3d printer.  You can find the BOM in the configurator located at the [Voron Design]( http://vorondesign.com/voron2.4) website.
+### Canbus
+- [Canbus for Octopus](https://www.teamfdm.com/forums/topic/672-how-to-use-can-toolhead-boards-connected-directly-to-octopus-octopus-pro-on-canboot/?do=findComment&comment=9911)
 
-![Voron Logo](http://vorondesign.com/images/voron_design_logo.png)
+### LDO
+- [Wiring Guide](https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c)
+- [Printed Parts](https://docs.ldomotors.com/en/voron/voron2/printed_part_guide_rev_c)
 
-## LDO Kit (Revision C) Documentation
-- https://docs.ldomotors.com/en/voron/voron2/printed_part_guide_rev_c
-- https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c
-
-## Mods
-- https://github.com/nevermore3d/Nevermore_Micro
-
+### Mods
+- [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro)
