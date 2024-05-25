@@ -46,3 +46,6 @@
 [submodule "githubs/voron"]
 	path = githubs/voron
 	url = https://github.com/chirpy2605/voron.git
+[submodule "githubs/HBB"]
+	path = githubs/HBB
+	url = https://github.com/bigtreetech/HBB.git
