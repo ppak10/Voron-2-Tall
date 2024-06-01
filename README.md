@@ -8,13 +8,7 @@ Collection of files for building custom Voron 2.4 with a build volume of 350 mm
 x 350 mm x 930 mm (13.78 in x 13.78 in x 36.61 in) modified from the base LDO
 Voron 2.4 Kit. 
 
-## Notes
-
-## Printed Parts
-
-### Toolheads
-
-### Mods
+## Mods
 - [Cable Port Flush Mount Skirt](https://mods.vorondesign.com/details/3vEc5I965u0puzAmz9DqvA) - [ppak10](https://github.com/ppak10)
 - [Enclosed Z-Chain Guide](https://mods.vorondesign.com/details/4mSRcdfNCvSq6nsRHETw) - [ppak10](https://github.com/ppak10)
 - [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro) - [nevermore3d](https://github.com/nevermore3d)
@@ -24,10 +18,31 @@ Voron 2.4 Kit.
   - [PG7 Umbilical Mount](https://www.printables.com/model/312008-voron-24-a-drive-pg7-umbilical-mount) - [jphalip](https://www.printables.com/@jphalip)
 
 - [Y Endstop Relocation](https://mods.vorondesign.com/details/ho9WEyf6msbGKhTbtM59mQ) - [Minsekt](https://github.com/Minsekt)
-## Useful Links
 
-### Canbus
-- [Canbus for Octopus](https://www.teamfdm.com/forums/topic/672-how-to-use-can-toolhead-boards-connected-directly-to-octopus-octopus-pro-on-canboot/?do=findComment&comment=9911)
+## Canbus Setup
+
+![Canbus Direct Diagram](images/canbus_direct_diagram.PNG)
+
+I mostly followed the steps outlined in this [forum post](https://www.teamfdm.com/forums/topic/672-how-to-use-can-toolhead-boards-connected-directly-to-octopus-octopus-pro-on-canboot/?do=findComment&comment=9911) to connect EBB directly to
+Octopus.
+
+More specifically, I followed the guide this guide that was attached.
+
+[**How to Use CAN Toolhead Boards Connected Directly to Octopus / Octopus Pro on CanBoot**](Manuals/Canbus/How%20to%20Use%20CAN%20Toolhead%20Boards%20Connected%20Directly%20to%20Octopus.pdf)
+
+### Notes
+1. CanBoot has updated name to Katapult but instructions in manual should still work.
+2. If `can0` doesn't automatically show up in `ifconfig` so this command should solve that:
+    ```bash
+    sudo ip link set up can0 type can bitrate 500000
+    ```
+
+### Troubleshooting 
+- [CANBus_Query.py not returning EBB36’s UUID. Setup: Pi 4, Octopus v1.1, EBB36 v1.2](https://klipper.discourse.group/t/canbus-query-py-not-returning-ebb36s-uuid-setup-pi-4-octopus-v1-1-ebb36-v1-2/8464)
+- [EBB_CAN](https://github.com/EricZimmerman/VoronTools/blob/main/EBB_CAN.md)
+
+## Other Useful Links
+
 
 ### LDO Docs
 - [Wiring Guide](https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c)
@@ -46,6 +61,3 @@ Voron 2.4 Kit.
 
 ### Hotend
 - [How To: Successfully Assemble an E3D v6 All-Metal HotEnd](https://www.matterhackers.com/articles/how-to-assemble-an-e3d-v6-all-metal-hotend)
-
-### Dragon Burner
-- [Dragon Burner Chaotic Labs Tap Adapter](https://www.printables.com/model/577975-voron-24trident-dragon-burner-toolhead-tap-adapter)
