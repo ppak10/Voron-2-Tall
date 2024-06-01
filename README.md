@@ -41,23 +41,26 @@ More specifically, I followed the guide this guide that was attached.
 - [CANBus_Query.py not returning EBB36’s UUID. Setup: Pi 4, Octopus v1.1, EBB36 v1.2](https://klipper.discourse.group/t/canbus-query-py-not-returning-ebb36s-uuid-setup-pi-4-octopus-v1-1-ebb36-v1-2/8464)
 - [EBB_CAN](https://github.com/EricZimmerman/VoronTools/blob/main/EBB_CAN.md)
 
-## Other Useful Links
+## Toolhead (Dragon Burner 2.85 mm)
+[Dragon Burner V8](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner)
+toolhead is used as the base for mounting an
+[Orbiter F2.85 mm](https://www.orbiterprojects.com/orbiter-f2-85/) extruder and
+[V6 All-Metal HotEnd](https://e3d-online.com/products/v6-all-metal-hotend?variant=40923457519675).
 
-
-### LDO Docs
-- [Wiring Guide](https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c)
-- [Printed Parts](https://docs.ldomotors.com/en/voron/voron2/printed_part_guide_rev_c)
-
-### Mods
-- [Nevermore Micro](https://github.com/nevermore3d/Nevermore_Micro)
-- [Rear Umbilical](https://github.com/VoronDesign/VoronUsers/tree/main/printer_mods/Minsekt/Rear_Umbilical)
-- [PG7 Umbilical Mount](https://www.printables.com/model/312008-voron-24-a-drive-pg7-umbilical-mount)
+### Notes
+1. Some printed component will need some light sanding to fit together properly.
+    - Be gentle with the fan components, they can break easily.
 
 ### Extruder
 <img src="https://www.orbiterprojects.com/wp-content/uploads/2021/11/Orbiter_F2.85-e1636623721217.png" width="250px">
 
-- [Orbiter F2.85 mm Project](https://www.orbiterprojects.com/orbiter-f2-85/)
 - [Orbiter F2.85 mm Files](https://www.thingiverse.com/thing:4860182)
 
 ### Hotend
 - [How To: Successfully Assemble an E3D v6 All-Metal HotEnd](https://www.matterhackers.com/articles/how-to-assemble-an-e3d-v6-all-metal-hotend)
+
+## Other Useful Links
+
+### LDO Docs
+- [Wiring Guide](https://docs.ldomotors.com/en/voron/voron2/wiring_guide_rev_c)
+- [Printed Parts](https://docs.ldomotors.com/en/voron/voron2/printed_part_guide_rev_c)
