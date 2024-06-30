@@ -52,3 +52,6 @@
 [submodule "githubs/VoronTools"]
 	path = githubs/VoronTools
 	url = https://github.com/EricZimmerman/VoronTools
+[submodule "githubs/whopping_Voron_mods"]
+	path = githubs/whopping_Voron_mods
+	url = https://github.com/tanaes/whopping_Voron_mods.git

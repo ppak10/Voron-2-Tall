@@ -34,11 +34,14 @@ More specifically, I followed the guide this guide that was attached.
 1. CanBoot has updated name to Katapult but instructions in manual should still work.
 2. If `can0` doesn't automatically show up in `ifconfig` so this command should solve that:
     ```bash
-    sudo ip link set up can0 type can bitrate 500000
+    sudo ip link set can0 up type can bitrate 250000
+    sudo ip link set can0 txqueuelen 128
     ```
+3. Make sure the high and low can wires are set correctly otherwise ebb will not show up properly.
 
 ### Troubleshooting 
 - [CANBus_Query.py not returning EBB36’s UUID. Setup: Pi 4, Octopus v1.1, EBB36 v1.2](https://klipper.discourse.group/t/canbus-query-py-not-returning-ebb36s-uuid-setup-pi-4-octopus-v1-1-ebb36-v1-2/8464)
+- [MCU timer too close error](https://klipper.discourse.group/t/help-with-troubleshooting-mcu-timer-too-close-error/15913/18)
 - [EBB_CAN](https://github.com/EricZimmerman/VoronTools/blob/main/EBB_CAN.md)
 
 ## Toolhead (Dragon Burner 2.85 mm)
@@ -50,6 +53,9 @@ toolhead is used as the base for mounting an
 ### Notes
 1. Some printed component will need some light sanding to fit together properly.
     - Be gentle with the fan components, they can break easily.
+2. Make sure to calibrate E-steps as the default settings will most likely result in under-extrusion.
+    - Here's a [good guide](https://ellis3dp.com/Print-Tuning-Guide/articles/extruder_calibration.html) with instructions to calibrate E-steps
+    - General Formula: `new_rotation_distance = previous_rotation_distance * (actual_extrude_distance / 100)`
 
 ### Extruder
 <img src="https://www.orbiterprojects.com/wp-content/uploads/2021/11/Orbiter_F2.85-e1636623721217.png" width="250px">
