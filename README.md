@@ -5,9 +5,9 @@ x 350 mm x 930 mm (13.78 in x 13.78 in x 36.61 in) modified from the base LDO
 Voron 2.4 Kit. 
 
 <div align="center">
-  <img src="./images/serial.gif" height=501>
-  <img src="./images/placeholder.JPEG" height=500>
-  <img src="./images/nosecone.gif" height=501>
+  <img src="./images/serial.gif" height=350>
+  <img src="./images/placeholder.JPEG" height=350>
+  <img src="./images/nosecone.gif" height=350>
 </div>
 
 
