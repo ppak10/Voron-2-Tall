@@ -1,12 +1,15 @@
 # Voron 2 Tall
 
-<!-- <div align="center">
-  <img src="./images/placeholder.JPEG" width="500px">
-</div> -->
-
 Collection of files for building custom Voron 2.4 with a build volume of 350 mm
 x 350 mm x 930 mm (13.78 in x 13.78 in x 36.61 in) modified from the base LDO
 Voron 2.4 Kit. 
+
+<div align="center">
+  <img src="./images/serial.gif" height=500>
+  <img src="./images/placeholder.JPEG" height=500>
+  <img src="./images/nosecone.gif" height=500>
+</div>
+
 
 ## Mods
 - [Cable Port Flush Mount Skirt](https://mods.vorondesign.com/details/3vEc5I965u0puzAmz9DqvA) - [ppak10](https://github.com/ppak10)
